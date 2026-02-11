@@ -166,6 +166,7 @@ namespace EFDemo
             {
                 context.Actors.Remove(actor);
                 context.SaveChanges();
+                //this is a comment
                 Console.WriteLine($"Deleted actor {actorId}");
             }
         }
